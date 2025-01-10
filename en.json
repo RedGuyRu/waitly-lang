@@ -1,5 +1,25 @@
 {
     "error": {
+        "alreadyInWaitlist": "You already in waitlist {{name}}.",
+        "usersNotFound": "Users not found!",
         "waitlistNotFound": "Waitlist not found!"
+    },
+    "general": {
+        "accepted": "You have been accepted into {{name}}",
+        "back": "◀ Back",
+        "canceled": "Canceled.",
+        "into": "You have been entered into the {{name}} whitelist, when you are invited by an admin you will be notified.",
+        "messagesSent": "The invitations have been sent out!",
+        "start": "Hi, I'm a bot for creating and monitoring waitlists.",
+        "users": "Users: \n"
+    },
+    "scenes": {
+        "acceptSelectedUsers": {
+            "enter": "Waitlist: {{name}}\n\nSend a file with a list of user id's"
+        },
+        "acceptUsers": {
+            "enter": "Waitlist: {{name}}\n\nWaiting: {{waiting}}Accepted: {{accepted}}\n\nSend the text that users will receive, for example, an invitation to a conversation.",
+            "users": "How many users need to be accepted?"
+        }
     }
 }
