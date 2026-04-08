@@ -1,50 +1,50 @@
 {
-  "error": {
-    "alreadyInWaitlist": "You already in waitlist {{name}}.",
-    "mustBeNumber": "Enter a number!",
-    "mustBePositive": "Number must be greater then zero!",
-    "notEnogthUsers": "Not enogth users!",
-    "usersNotFound": "Users not found!",
-    "waitlistNotFound": "Waitlist not found!"
-  },
-  "general": {
-    "acccept": "Accept users",
-    "accepted": "You have been accepted into {{name}}",
-    "back": "Back",
-    "canceled": "Canceled.",
-    "delete": "Delete",
-    "deleteWaitlist": "Delete waitlist",
-    "into": "You have been entered into the {{name}} whitelist, when you are invited by an admin you will be notified.",
-    "invite": "Invite users",
-    "inviteSelected": "Invite selected users",
-    "messagesSent": "The invitations have been sent out!",
-    "start": "Hi, I'm a bot for creating and monitoring waitlists.",
-    "users": "Users: \n",
-    "usersInWaitlist": "Uses in waitlist"
-  },
-  "scenes": {
-    "acceptSelectedUsers": {
-      "enter": "Waitlist: {{name}}\n\nSend a file with a list of user id's"
+    "error": {
+        "alreadyInWaitlist": "You already in waitlist {{name}}.",
+        "mustBeNumber": "Enter a number!",
+        "mustBePositive": "Number must be greater then zero!",
+        "notEnogthUsers": "Not enogth users!",
+        "usersNotFound": "Users not found!",
+        "waitlistNotFound": "Waitlist not found!"
     },
-    "acceptUsers": {
-      "enter": "Waitlist: {{name}}\n\nWaiting: {{waiting}}\nAccepted: {{accepted}}\n\nSend the text that users will receive, for example, an invitation to a conversation.",
-      "users": "How many users need to be accepted?"
+    "general": {
+        "acccept": "Accept users",
+        "accepted": "You have been accepted into {{name}}",
+        "back": "Back",
+        "canceled": "Canceled.",
+        "delete": "Delete",
+        "deleteWaitlist": "Delete waitlist",
+        "into": "You have been entered into the {{name}} whitelist, when you are invited by an admin you will be notified.",
+        "invite": "Invite users",
+        "inviteSelected": "Invite selected users",
+        "messagesSent": "The invitations have been sent out!",
+        "start": "Hi, I'm a bot for creating and monitoring waitlists.",
+        "users": "Users: \n",
+        "usersInWaitlist": "Uses in waitlist"
     },
-    "deleteWaitlist": {
-      "deleted": "Waitlist deleted!",
-      "enter": "Confirm waitlist deletion."
-    },
-    "newWaitlist": {
-      "description": "Enter waitlist description.",
-      "enter": "Enter waitlist name."
-    },
-    "waitlist": {
-      "enter": "Waitlist: {{name}}\nDescription: {{description}}\n\nWaiting: {{waiting}}\nAccepted: {{accepted}}",
-      "share": "Click on button below to invite users",
-      "shareButton": "Invite"
-    },
-    "waitlists": {
-      "enter": "Your waitlists:"
+    "scenes": {
+        "acceptSelectedUsers": {
+            "enter": "Waitlist: {{name}}\n\nSend a file with a list of user id's"
+        },
+        "acceptUsers": {
+            "enter": "Waitlist: {{name}}\n\nWaiting: {{waiting}}\nAccepted: {{accepted}}\n\nSend the text that users will receive, for example, an invitation to a conversation.",
+            "users": "How many users need to be accepted?"
+        },
+        "deleteWaitlist": {
+            "deleted": "Waitlist deleted!",
+            "enter": "Confirm waitlist deletion."
+        },
+        "newWaitlist": {
+            "description": "Enter waitlist description.",
+            "enter": "Enter waitlist name."
+        },
+        "waitlist": {
+            "enter": "Waitlist: {{name}}\nDescription: {{description}}\n\nWaiting: {{waiting}}\nAccepted: {{accepted}}",
+            "share": "Click on button below to invite users",
+            "shareButton": "Invite"
+        },
+        "waitlists": {
+            "enter": "Your waitlists:"
+        }
     }
-  }
 }
